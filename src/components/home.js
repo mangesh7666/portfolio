@@ -239,7 +239,7 @@ export default function Portfolio() {
                 Full-Stack Developer | MERN & PHP
               </motion.p>
               {/* Resume Link */}
-              <a href="./mangesh_resume.pdf" target="_blank" rel="noopener noreferrer" style={resumeLinkStyle} data-aos="fade-up" data-aos-delay="400">
+              <a href="./mangesh_resume (1).pdf" target="_blank" rel="noopener noreferrer" style={resumeLinkStyle} data-aos="fade-up" data-aos-delay="400">
                 View Resume
               </a>
               <a href="#projects" className="btn fw-semibold px-4 py-2 ms-3" style={{ ...buttonStyle, backgroundColor: theme.primaryBg, color: theme.accentColor, marginTop:"10px" ,border: `2px solid ${theme.accentColor}` }} data-aos="fade-up" data-aos-delay="600">
