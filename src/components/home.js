@@ -290,7 +290,7 @@ export default function Portfolio() {
         <div className="container">
           <h2 className="fw-bold mb-4">Education</h2>
           <h5 className="fw-bold mb-1" style={{ color: theme.accentColor }}>Bachelor of Computer Applications (BCA)</h5>
-          <p className="fw-bold mb-4" style={{ color: theme.textColor }}>Shivaji University Kolhapur | Currently Pursuing (3rd Year)</p>
+          <p className="fw-bold mb-4" style={{ color: theme.textColor }}>Shivaji University Kolhapur</p>
           <hr style={{ width: "50px", margin: "auto", borderColor: theme.hrColor }} />
           <p className="fs-5 mt-4" style={{ color: theme.textColor }}>I have also built my skills from the ground up by diving into the official documentation and resources of each technology I use. My hands-on knowledge in the MERN stack and PHP comes from a deep and persistent dive into the following:</p>
           <ul className="list-unstyled d-flex flex-wrap justify-content-center gap-4 text-center mt-4">
