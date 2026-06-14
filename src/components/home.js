@@ -103,8 +103,8 @@ export default function Portfolio() {
       title: "Voice-Controlled MERN E-commerce Platform",
       description: "Developed a full-stack MERN e-commerce site with hands-free voice control powered by a Python model. Features include user authentication, secure payment integration, and dynamic product management. Showcased real-time voice interaction for navigation and checkout, enhancing accessibility and user experience. Tech: React, Node.js, Express.js, MongoDB, Python (voice model)",
       image: "image2.png",
-      github: "https://github.com/mangesh7666/focus-tracker",
-      demo: "https://live-demo-link1.com",
+      github: "",
+      demo: "",
     },
     {
       title: "Screen Time Plus - Chrome Extension & React Dashboard",
@@ -124,13 +124,13 @@ export default function Portfolio() {
       title: "Inventory Management System for Store Owner",
       description: "Developed a web-based Inventory Management System using PHP, MySQL, HTML, CSS, and JavaScript. Store owners can add, update, and delete products, manage stock quantities, and easily track product availability in real-time. The system streamlines inventory monitoring and improves operational efficiency.Tech: PHP, MySQL, HTML, CSS, JavaScript",
       image: "image3.png",
-      github: "https://github.com/mangesh7666",
+      github: "",
       demo: "https://inventorymanager.infinityfree.me",
     },
   ];
 
   const ProjectCard = ({ project, reverse }) => (
-  <div className="col-md-6 mb-4"> {/* 2 cards per row on medium screens and up */}
+  <div className="col-md-6 mb-4">
     <motion.div
       whileHover={{ y: -10, boxShadow: `0 15px 30px ${theme.cardShadow.replace('0.05', '0.15').replace('0.2', '0.3')}` }}
       className="card h-100 shadow-lg"
@@ -153,12 +153,21 @@ export default function Portfolio() {
             <h3 className="card-title h5 fw-bold" style={{ color: theme.accentColor }}>{project.title}</h3>
             <p className="card-text flex-grow-1" style={{ color: theme.textColor }}>{project.description}</p>
             <div className="d-flex justify-content-start gap-3 mt-3">
-              <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-decoration-none fw-semibold" style={{ color: theme.accentColor }}>
-                <FaGithub className="me-1" /> GitHub
-              </a>
-              <a href={project.demo} target="_blank" rel="noopener noreferrer" className="text-decoration-none fw-semibold" style={{ color: theme.accentColor }}>
-                Live Demo
-              </a>
+              
+              {/* Conditional GitHub Link */}
+              {project.github && (
+                <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-decoration-none fw-semibold" style={{ color: theme.accentColor }}>
+                  <FaGithub className="me-1" /> GitHub
+                </a>
+              )}
+
+              {/* Conditional Live Demo Link */}
+              {project.demo && (
+                <a href={project.demo} target="_blank" rel="noopener noreferrer" className="text-decoration-none fw-semibold" style={{ color: theme.accentColor }}>
+                  Live Demo
+                </a>
+              )}
+
             </div>
           </div>
         </div>
