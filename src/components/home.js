@@ -125,7 +125,7 @@ export default function Portfolio() {
       description: "Developed a web-based Inventory Management System using PHP, MySQL, HTML, CSS, and JavaScript. Store owners can add, update, and delete products, manage stock quantities, and easily track product availability in real-time. The system streamlines inventory monitoring and improves operational efficiency.Tech: PHP, MySQL, HTML, CSS, JavaScript",
       image: "image3.png",
       github: "",
-      demo: "https://inventorymanager.infinityfree.me",
+      demo: "",
     },
   ];
 
