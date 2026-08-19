@@ -372,9 +372,7 @@ export default function Portfolio() {
             <a href="tel:+917666351784" className="text-decoration-none fw-semibold" style={{ color: theme.accentColor }}>
         <FaPhone className="me-1" /> Phone
       </a>
-            <a href="https://www.linkedin.com/in/mangesh-kusawah-4ba739324/" target="_blank" rel="noopener noreferrer" className="text-decoration-none fw-semibold" style={{ color: theme.accentColor }}>
-              <FaLinkedin className="me-1" /> LinkedIn
-            </a>
+            
             <a href="https://github.com/mangesh7666" target="_blank" rel="noopener noreferrer" className="text-decoration-none fw-semibold" style={{ color: theme.accentColor }}>
               <FaGithub className="me-1" /> GitHub
             </a>
