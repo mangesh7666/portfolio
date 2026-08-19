@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"; // Import useEffect for AOS
 import { motion } from "framer-motion";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPhp, FaDatabase, FaGithub, FaLinkedin, FaEnvelope,FaPhone } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPhp, FaDatabase, FaGithub, FaEnvelope,FaPhone } from "react-icons/fa";
 import {SiMysql } from "react-icons/si";
 import profilePic from './images/mangesh.jpeg'; // Ensure this path is correct relative to your component
 
